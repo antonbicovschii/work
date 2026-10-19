@@ -13,7 +13,7 @@ if response.status_code == 200:
     # 4. Превращаем "сырой" ответ в удобный формат JSON (словарь Python)
     data = response.json()
 
-    print(f"Успех! Мы нашли пользователя.")
+    print(f"Успех! Мы нашли его.")
     print(f"Имя: {data['name']}")
     print(f"Email: {data['email']}")
     print(f"Город: {data['address']['city']}")
