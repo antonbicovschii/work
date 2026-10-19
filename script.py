@@ -17,5 +17,5 @@ if response.status_code == 200:
     print(f"Имя: {data['name']}")
     print(f"Email: {data['email']}")
     print(f"Город: {data['address']['city']}")
-else:
+    else:
     print(f"Ой, что-то пошло не так. Код ошибки: {response.status_code}")
